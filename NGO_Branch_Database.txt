@@ -1,0 +1,20 @@
+#This file contains the code to create database for branch details of NGO and can be altered or updated to insert data
+#Created by Affan Wahid Batch1
+create database ngo_branch;
+#This command create a database called ngo_branch
+use ngo_branch;
+#This command use the database for further editing or creating tables
+CREATE TABLE `ngo_branch`.`ngo_branch_details` (
+  `Branch_Id` VARCHAR(255) NOT NULL,
+  `Branch_name` VARCHAR(255) NULL,
+  `Address` VARCHAR(255) NULL,
+  `B_Contact` INT NULL,
+  `B_Head` VARCHAR(255) NULL,
+  `No_of_Service` INT NULL,
+  `City` VARCHAR(255) NULL,
+  `B_Email` VARCHAR(255) NULL,
+  PRIMARY KEY (`Branch_Id`))
+ENGINE = InnoDB;
+#This command create a table called ngo_branch_details and add various columns
+SELECT * FROM ngo_branch.ngo_branch_details;
+#This command show the empty table as there is no data in the table
