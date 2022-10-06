@@ -1,5 +1,7 @@
 package com.rpfb.portal.Reform.Portal;
 
+import java.beans.JavaBean;
+
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,6 +11,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
+@JavaBean
 public class ReformPortalApplication {
 	
 	private static final Logger log = (Logger) LoggerFactory.getLogger(ReformPortalApplication.class);
