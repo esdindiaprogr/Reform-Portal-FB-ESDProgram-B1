@@ -25,3 +25,4 @@ public class NgoBranchController {
 		service.addNgoBranch(ngobranch);
 		return " saved ";
 }
+}
