@@ -62,22 +62,33 @@ public class NgoBranch {
 	public void setEmail(String email) {
 		Email = email;
 	}
-	public NgoBranch(long u_Id, String branch_Name, String address, String type, String person_Name, long mob_No,
-			String email) {
-//		super();
-		this.U_Id = u_Id;
-		this.Branch_Name = branch_Name;
-		this.Address = address;
-		this.Type = type;
-		this.Person_Name = person_Name;
-		this.Mob_No = mob_No;
-		this.Email = email;
-	}
+//	public NgoBranch(long u_Id, String branch_Name, String address, String type, String person_Name, long mob_No,
+//			String email) {
+////		super();
+//		this.U_Id = u_Id;
+//		this.Branch_Name = branch_Name;
+//		this.Address = address;
+//		this.Type = type;
+//		this.Person_Name = person_Name;
+//		this.Mob_No = mob_No;
+//		this.Email = email;
+//	}
 	
 	@Override
 	public String toString() {
 		return "NgoBranch [U_Id=" + U_Id + ", branch_Name=" + Branch_Name + ", address=" + Address + ", email=" + Email
 				+ ", type=" + Type + ", Person_Name=" + Person_Name + ", Mob_No=" + Mob_No + "]";
 	
+}
+public NgoBranch(long u_Id, String branch_Name, String address, String type, String person_Name, long mob_No,
+		String email) {
+	super();
+	U_Id = u_Id;
+	Branch_Name = branch_Name;
+	Address = address;
+	Type = type;
+	Person_Name = person_Name;
+	Mob_No = mob_No;
+	Email = email;
 }
 }
