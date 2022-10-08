@@ -1003,3 +1003,59 @@ Caused by: org.springframework.data.mapping.PropertyReferenceException: No prope
 2022-10-08 14:22:29.653  INFO 10356 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-10-08 14:22:29.657  INFO 10356 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-10-08 14:22:29.664  INFO 10356 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-08 15:52:52.900  INFO 5172 --- [main] c.r.p.R.P.ReformPortalApplicationTests   : Starting ReformPortalApplicationTests using Java 17.0.2 on LAPTOP-ORR1CB7V with PID 5172 (started by gtani in C:\Users\gtani\esd\Reform-Portal-FB-ESDProgram-B1)
+2022-10-08 15:52:52.902  INFO 5172 --- [main] c.r.p.R.P.ReformPortalApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-10-08 15:52:53.818  INFO 5172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-08 15:52:53.887  INFO 5172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 4 JPA repository interfaces.
+2022-10-08 15:52:54.597  INFO 5172 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-08 15:52:54.689  INFO 5172 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-08 15:52:54.907  INFO 5172 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-08 15:52:55.128  INFO 5172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-08 15:52:55.433  INFO 5172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-08 15:52:55.472  INFO 5172 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-08 15:52:55.776  INFO 5172 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.rpfb.portal.Reform.Portal.model.AngelData (class must be instantiated by Interceptor)
+2022-10-08 15:52:55.970  INFO 5172 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.rpfb.portal.Reform.Portal.model.NgoBranch (class must be instantiated by Interceptor)
+2022-10-08 15:52:55.997  INFO 5172 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.rpfb.portal.Reform.Portal.model.UserData (class must be instantiated by Interceptor)
+2022-10-08 15:52:56.308  INFO 5172 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-08 15:52:56.316  INFO 5172 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-08 15:52:57.016  WARN 5172 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-08 15:52:57.385  INFO 5172 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-08 15:52:58.065  INFO 5172 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-10-08 15:52:58.097  INFO 5172 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-10-08 15:52:58.128  INFO 5172 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-10-08 15:52:58.372  INFO 5172 --- [main] c.r.p.R.P.ReformPortalApplicationTests   : Started ReformPortalApplicationTests in 5.785 seconds (JVM running for 6.694)
+2022-10-08 15:52:58.669  INFO 5172 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-08 15:52:58.672  INFO 5172 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-08 15:52:58.676  INFO 5172 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-08 15:53:09.999  INFO 14616 --- [main] c.r.p.R.Portal.ReformPortalApplication   : Starting ReformPortalApplication using Java 17.0.2 on LAPTOP-ORR1CB7V with PID 14616 (C:\Users\gtani\esd\Reform-Portal-FB-ESDProgram-B1\target\classes started by gtani in C:\Users\gtani\esd\Reform-Portal-FB-ESDProgram-B1)
+2022-10-08 15:53:10.002  INFO 14616 --- [main] c.r.p.R.Portal.ReformPortalApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-10-08 15:53:10.668  INFO 14616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-08 15:53:10.719  INFO 14616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 4 JPA repository interfaces.
+2022-10-08 15:53:11.175  INFO 14616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2022-10-08 15:53:11.186  INFO 14616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-08 15:53:11.186  INFO 14616 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-08 15:53:11.295  INFO 14616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-08 15:53:11.296  INFO 14616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1240 ms
+2022-10-08 15:53:11.442  INFO 14616 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-08 15:53:11.477  INFO 14616 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-08 15:53:11.605  INFO 14616 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-08 15:53:11.680  INFO 14616 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-08 15:53:11.803  INFO 14616 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-08 15:53:11.834  INFO 14616 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-08 15:53:12.078  INFO 14616 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.rpfb.portal.Reform.Portal.model.AngelData (class must be instantiated by Interceptor)
+2022-10-08 15:53:12.222  INFO 14616 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.rpfb.portal.Reform.Portal.model.NgoBranch (class must be instantiated by Interceptor)
+2022-10-08 15:53:12.249  INFO 14616 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.rpfb.portal.Reform.Portal.model.UserData (class must be instantiated by Interceptor)
+2022-10-08 15:53:12.378  INFO 14616 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-08 15:53:12.386  INFO 14616 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-08 15:53:12.760  WARN 14616 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-08 15:53:12.878  INFO 14616 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-08 15:53:13.117  INFO 14616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2022-10-08 15:53:13.118  INFO 14616 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-10-08 15:53:13.137  INFO 14616 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-10-08 15:53:13.173  INFO 14616 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-10-08 15:53:13.349  INFO 14616 --- [main] c.r.p.R.Portal.ReformPortalApplication   : Started ReformPortalApplication in 3.681 seconds (JVM running for 4.294)
+2022-10-08 15:54:07.416  INFO 14616 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-08 15:54:07.443  INFO 14616 --- [RMI TCP Connection(4)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-08 15:54:07.454  INFO 14616 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-08 15:54:07.462  INFO 14616 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-08 15:54:07.476  INFO 14616 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
