@@ -33,5 +33,10 @@ Here the table of Contributors of With there Roles.
 |Arjun Verma              |  [@arjunverma06](https://github.com/arjunverma06)                                 |Software Testing Team |
 |Mohd Zaid Vadood Khan     |  -                                                                                |Software Testing Team |
 
+## Database Administrative Team  
+| Name of Contributors   |                                     Profiles                                        | Roles |
+|:---                    |            :----                                                                   |    :----  |
+| Affan Wahid            |  [@AffanWahid](https://github.com/AffanWahid)                                      |DBA Team |
+| Syed Kumail Rizvi           |  [@Kumailrizvi786](https://github.com/Kumailrizvi786)                                  |DBA Team |
 
 
