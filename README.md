@@ -14,3 +14,14 @@ Here the table of Contributors of With there Roles.
 |Farhan Faizi             |  [@Faizi-001](https://github.com/Faizi-001)                                     |Frontend development Team |
 |Danish Khan                |  [@khandanish7862003](https://github.com/khandanish7862003)                    |Frontend development Team|
 
+## Backend development Team  
+
+| Name of Contributors   |                                     Profiles                                        | Roles |
+|:---                    |            :----                                                                   |    :----  |
+| Sahil Ali            |  [@Sahilali8808](https://github.com/SahilAli8808)                                      |Backend Team |
+|Chanda                 |  [@Chanda1629](https://github.com/Chanda1629)                                       |Backend Team|
+| Tanishq Gupta           |  [@gtanishq93](https://github.com/gtanishq93)                                  |Backend Team |
+|Jayshree              |  [@singhjayshree334](https://github.com/singhjayshree334)                                 |Backend Team|
+|  Anshu Gupta           |  [@Anshugupta08](https://github.com/Anshugupta08)                                  |Backend Team |
+
+
