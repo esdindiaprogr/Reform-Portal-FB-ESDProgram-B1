@@ -1,6 +1,33 @@
 # Reform-Portal-FB-ESDProgram-B1
 This is the Sample Project of Reform Poratal First Batch Assigned by ESD India Program. This project Java Maven Based project.
 
+## Description
+
+This Project is created Under the guidance of ESdindia program expert trainners. This project Java Maven Based project.
+
+## Getting Started
+
+### Executing program
+
+* To Excute the program can go through the github page 
+* Copy the below link and go through it.
+```
+sahilali8808.github.io/Reform-Portal-FB-ESDProgram-B1/tree/main/RPFB%20FED
+```
+
+## Help
+
+* For working on this project can go through follow steps.
+* Clone the below things
+
+```
+git clone https://github.com/esdindiaprogr/Reform-Portal-FB-ESDProgram-B1.git
+```
+
+
+## License
+
+This project is licensed under the ESDIndiaProgram License - Visit thebluebookfoundation.com for details.
 
 # Our Contributors
 Here the table of Contributors of With there Roles.
