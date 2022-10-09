@@ -46,11 +46,11 @@ This Project is created Under the guidance of ESdindia program expert trainners.
 
 <!-- Screenshots -->
 ### :camera: Screenshots
-
+<!--
 <div align="center"> 
   <img src="https://github.com/SahilAli8808/Reform-Portal-FB-ESDProgram-B1/blob/main/img/j.png?raw=true" alt="screenshot" />
 </div>
-
+-->
 ### Executing program
 
 * To Excute the program can go through the github page 
