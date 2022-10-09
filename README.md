@@ -46,11 +46,11 @@ This Project is created Under the guidance of ESdindia program expert trainners.
 
 <!-- Screenshots -->
 ### :camera: Screenshots
-
+<!--
 <div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+  <img src="#" alt="screenshot" />
 </div>
-
+-->
 ### Executing program
 
 * To Excute the program can go through the github page 
