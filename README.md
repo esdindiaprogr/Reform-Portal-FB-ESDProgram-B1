@@ -48,7 +48,7 @@ This Project is created Under the guidance of ESdindia program expert trainners.
 ### :camera: Screenshots
 <!--
 <div align="center"> 
-  <img src="https://github.com/SahilAli8808/Reform-Portal-FB-ESDProgram-B1/blob/main/img/j.png?raw=true" alt="screenshot" />
+  <img src="#" alt="screenshot" />
 </div>
 -->
 ### Executing program
