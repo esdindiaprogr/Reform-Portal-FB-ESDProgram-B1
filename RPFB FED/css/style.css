@@ -49,7 +49,7 @@ a {
     width: 30.1%; }
 
 .image-holder {
-  background: url("../images/nivedita-singh-sWFdd2sJ5Jo-unsplash.jpg")  ;
+  background: url("../Images/nivedita-singh-sWFdd2sJ5Jo-unsplash.jpg")  ;
   background-size: cover; }
   .image-holder img {
     display: none; }
@@ -95,9 +95,9 @@ label {
   font-size: 17px; }
   .form-control.error {
     border-color: #51557E !important;
-    background: url("../images/error.png") no-repeat center right 19px; }
+    background: url("../Images/error.png") no-repeat center right 19px; }
   .form-control.valid {
-    background: url("../images/valid.png") no-repeat center right 19px; }
+    background: url("../Images/valid.png") no-repeat center right 19px; }
 
 .form-error {
   margin-top: 10px;
@@ -184,11 +184,9 @@ p {
   /* sign-up page css */
 .sup-inner 
 {
-  width: 40.1% !important; 
   height: auto;
   background-color: rgba(255, 255, 255, 0.738) !important;
   padding-bottom: 1vw;
-  padding-top: 2vw !important;
   border-radius: 15px;
 }
 
@@ -200,6 +198,7 @@ p {
 {
   background: url("../images/nivedita-singh-sWFdd2sJ5Jo-unsplash.jpg");
   background-size: cover ;
+  background-repeat: no-repeat;
 }
 
 .sup-wrap
@@ -208,10 +207,6 @@ p {
   align-items: center;
 }
 
-.sup-group
-{
-  margin-bottom: 10px !important;
-}
 .sup-control
 {
   border: 1px solid rgba(0, 0, 0, 0.5) !important;
@@ -234,9 +229,10 @@ p {
       height: 45vh; }
     .wrapper .form-inner {
       width: 100%;
-      height: 55vh; }
-    .sup{
-      width: 50%;
+      height: 100%; }
+    .sup-body
+    {
+    background-size: cover;
     }
 
   .form-inner {
@@ -246,10 +242,7 @@ p {
   button {
     width: 50%; } }
 @media (max-width: 991px) {
-  .wrapper .image-holder {
-    height: 37vh; }
-  .wrapper .form-inner {
-    height: 63vh; }
+
 
   .socials {
     margin-top: 40px; }
@@ -266,7 +259,7 @@ p {
     display: block; }
 
   .form-inner {
-    padding: 30px 20px; }
+    padding: 60px 30px; }
 
   button {
     width: 50%; } }
