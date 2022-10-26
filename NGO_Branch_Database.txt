@@ -18,3 +18,41 @@ ENGINE = InnoDB;
 #This command create a table called ngo_branch_details and add various columns
 SELECT * FROM ngo_branch.ngo_branch_details;
 #This command show the empty table as there is no data in the table
+
+
+#Written By Syed Kumail Rizvi
+#all user data table
+CREATE TABLE `User Data` (
+  `U_Id` int,
+  `F_name` varchar(255),
+  `L_name` varchar(255),
+  `email` varchar(255),
+  `password` password(8),
+  `City` varchar(255),
+  PRIMARY KEY (`U_Id`)
+);
+
+
+#all user role table
+CREATE TABLE `User Role` (
+  `R_Id` int,
+  `U_Id` int,
+  `F_name` varchar(255),
+  `L_name` varchar(255),
+  `email` varchar(255),
+  `Branch_Id` varchar(255),
+  PRIMARY KEY (`R_Id`)
+);
+
+#Angel Table
+
+CREATE TABLE `Angel Table` (
+  `name` varchar(255),
+  `a_Id` int,
+  `Area _of_ Interest` varchar(255),
+  `contact` int,
+  `address` varchar(255),
+  `U-Id` int,
+  PRIMARY KEY (`a_Id`)
+);
+
