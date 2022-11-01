@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -18,6 +19,7 @@ import com.rpfb.portal.Reform.Portal.services.AngelDataService;
 
 
 @RestController
+@RequestMapping("api/v1/")
 public class AngelDataController {
 
 	private static final Logger log = LoggerFactory.getLogger(AngelDataController.class);
@@ -30,10 +32,10 @@ public class AngelDataController {
 		service.addAngelData(angeldata);
 		
 	
-		
-
 		return "User Data Saved";
 	}
+	
+	
 
    
 /**	
