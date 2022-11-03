@@ -41,10 +41,8 @@ public class AngelDataService {
 	}
 
 
-public com.rpfb.portal.Reform.Portal.controllers.Optional<AngelData> getAngelDataById(Long id) {
-	// TODO Auto-generated method stub
-	return repository.getAngelDataByid();
-}
+
+
 
 
 /**	public  String deleteAngelDataByid(Long id) {
